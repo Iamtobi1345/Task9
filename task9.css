@@ -23,6 +23,7 @@ border-radius:20px;}
 .column2{margin-top:-50px;
 margin-bottom:-50px;
 background-color:purple;
+overflow:hidden;
 position:relative;}
 
 .line{height:1px;
@@ -70,13 +71,13 @@ margin-right:10px;
 .most{display:flex;
 position:absolute;
 align-items:center;
-margin-left:170px;
-background-color:white;
+
+background-color:blue;
 color:gold;
-margin-top:20px;
-border-radius:6px;
+height:30px;
+border-radius:3px;
 justify-content:center;
-width:120px;
+width:100%;
 }
 
 .features{display:flex;
